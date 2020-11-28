@@ -1,0 +1,23 @@
+
+{
+    "region" : "ca-central-1",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "Backend API Demo",
+    "environment"    : "BackendApiDemo-env",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "enhanced",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.0.4 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "backendapi-prod",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx",
+    "profile"              : "akarws",
+    "iis-website"          : "Default Web Site",
+    "app-path"             : "/"
+}
